@@ -8,9 +8,7 @@ A sound app for the new Macbook Pro's [Touch Bar](https://developer.apple.com/ma
 2. Emoji and other clever sound names
 
 ## Note
-Since the new Macbook isn't available yet, you can test out the Touch Bar's first ever fart app with Xcode 8.1 and macOS Sierra. Or watch this YouTube video to see how the project this was forked from works:
-
-[![TouchFart Demo Video](http://img.youtube.com/vi/R6HVyaZpTgM/0.jpg)](http://www.youtube.com/watch?v=R6HVyaZpTgM "TouchFart")
+Since the new Macbook isn't available yet, you can test out the Touch Bar's first ever sound effect app with Xcode 8.1 and macOS Sierra.
 
 ## To Do
 Reshape UI, add code documentation, and consolidate what this will be eventually.
