@@ -4,9 +4,8 @@ A sound app for the new Macbook Pro's [Touch Bar](https://developer.apple.com/ma
 [Screenshots coming soon]
 
 ## Features
-1. Three different fart sounds
-2. Two emoji and one word: "fart"
-3. Works with the TouchFart macOS app to allow selection and playback of predefined fart sounds.
+1. Different sounds, easily accessible from the Touch Bar.
+2. Emoji and other clever sound names
 
 ## Note
 Since the new Macbook isn't available yet, you can test out the Touch Bar's first ever fart app with Xcode 8.1 and macOS Sierra. Or watch this YouTube video to see how the project this was forked from works:
