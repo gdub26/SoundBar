@@ -22,6 +22,7 @@ fileprivate extension NSTouchBarItemIdentifier {
     static let fart = NSTouchBarItemIdentifier("fart")
     static let wam = NSTouchBarItemIdentifier("wam")
     static let AIRHORN = NSTouchBarItemIdentifier("AIRHORN")
+    static let camera = NSTouchBarItemIdentifier("camera")
 }
 
 
@@ -51,7 +52,7 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
         let touchBar = NSTouchBar()
         touchBar.delegate = self
         touchBar.customizationIdentifier = .touchBar
-        touchBar.defaultItemIdentifiers = [.wam, .AIRHORN]
+        touchBar.defaultItemIdentifiers = [.wam, .AIRHORN, .camera]
         
         return touchBar
         
@@ -73,18 +74,24 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
             let button = NSButton(title: "fart", target: self, action: #selector(handleFart))
             touchBarItem.view = button
             return touchBarItem
+            
        // The '(title: "XXXXX"' is what the audio file must be named and also what is displayed on the TB.
+        case NSTouchBarItemIdentifier.AIRHORN:
+            let button = NSButton(title: "📣", target: self, action: #selector(handleFart))
+            touchBarItem.view = button
+            return touchBarItem
         case NSTouchBarItemIdentifier.wam:
             let button = NSButton(title: "Wam", target: self, action: #selector(handleFart))
             touchBarItem.view = button
             return touchBarItem
-        case NSTouchBarItemIdentifier.AIRHORN:
-            let button = NSButton(title: "Airhorn", target: self, action: #selector(handleFart))
+        case NSTouchBarItemIdentifier.camera:
+            let button = NSButton(title: "📷", target: self, action: #selector(handleFart))
             touchBarItem.view = button
             return touchBarItem
+
        
         default:
-            let button = NSButton(title: "fart", target: self, action: #selector(handleFart))
+            let button = NSButton(title: "Wam", target: self, action: #selector(handleFart))
             touchBarItem.view = button
             return touchBarItem
             
