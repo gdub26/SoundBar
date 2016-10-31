@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		1968E2811DC2E22100422BFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1968E2801DC2E22100422BFE /* AppDelegate.swift */; };
 		1968E2831DC2E22100422BFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1968E2821DC2E22100422BFE /* ViewController.swift */; };
-		1968E2851DC2E22100422BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1968E2841DC2E22100422BFE /* Assets.xcassets */; };
 		1968E2881DC2E22100422BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1968E2861DC2E22100422BFE /* Main.storyboard */; };
 		1968E2931DC2E22100422BFE /* TouchFartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1968E2921DC2E22100422BFE /* TouchFartTests.swift */; };
 		1968E29E1DC2E71000422BFE /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1968E29D1DC2E71000422BFE /* WindowController.swift */; };
+		342FFE3F1DC7A7C200622E66 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342FFE3E1DC7A7C200622E66 /* Media.xcassets */; };
 		34D3EF2A1DC6E1B000BBCB2B /* 📣.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34D3EF281DC6E1B000BBCB2B /* 📣.mp3 */; };
 		34D3EF2C1DC6E84300BBCB2B /* 📷.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34D3EF2B1DC6E84300BBCB2B /* 📷.mp3 */; };
 		34EF363F1DC77C9E00D25F89 /* 🖥 Wam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34EF363C1DC77C9E00D25F89 /* 🖥 Wam.mp3 */; };
@@ -26,6 +26,8 @@
 		34EF365F1DC7A07A00D25F89 /* 🏳️‍🌈.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34EF365A1DC7A07A00D25F89 /* 🏳️‍🌈.mp3 */; };
 		34EF36601DC7A07A00D25F89 /* 😡.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34EF365B1DC7A07A00D25F89 /* 😡.mp3 */; };
 		34EF36611DC7A07A00D25F89 /* 😱.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34EF365C1DC7A07A00D25F89 /* 😱.mp3 */; };
+		34EF36651DC7A40000D25F89 /* 🎤.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34EF36631DC7A40000D25F89 /* 🎤.mp3 */; };
+		34EF36671DC7A4A200D25F89 /* ⬛️.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34EF36661DC7A4A200D25F89 /* ⬛️.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +44,13 @@
 		1968E27D1DC2E22100422BFE /* SoundBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1968E2801DC2E22100422BFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1968E2821DC2E22100422BFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1968E2841DC2E22100422BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1968E2871DC2E22100422BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1968E2891DC2E22100422BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1968E28E1DC2E22100422BFE /* SoundBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1968E2921DC2E22100422BFE /* TouchFartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchFartTests.swift; sourceTree = "<group>"; };
 		1968E2941DC2E22100422BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1968E29D1DC2E71000422BFE /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		342FFE3E1DC7A7C200622E66 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		34D3EF281DC6E1B000BBCB2B /* 📣.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "📣.mp3"; sourceTree = "<group>"; };
 		34D3EF2B1DC6E84300BBCB2B /* 📷.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "📷.mp3"; sourceTree = "<group>"; };
 		34EF363C1DC77C9E00D25F89 /* 🖥 Wam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "🖥 Wam.mp3"; sourceTree = "<group>"; };
@@ -62,6 +64,8 @@
 		34EF365A1DC7A07A00D25F89 /* 🏳️‍🌈.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "🏳️‍🌈.mp3"; path = "rs1/🏳️‍🌈.mp3"; sourceTree = "<group>"; };
 		34EF365B1DC7A07A00D25F89 /* 😡.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "😡.mp3"; path = "rs1/😡.mp3"; sourceTree = "<group>"; };
 		34EF365C1DC7A07A00D25F89 /* 😱.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "😱.mp3"; path = "rs1/😱.mp3"; sourceTree = "<group>"; };
+		34EF36631DC7A40000D25F89 /* 🎤.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "🎤.mp3"; path = "rs1/🎤.mp3"; sourceTree = "<group>"; };
+		34EF36661DC7A4A200D25F89 /* ⬛️.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "⬛️.mp3"; path = "rs1/⬛️.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 		1968E2741DC2E22100422BFE = {
 			isa = PBXGroup;
 			children = (
+				342FFE3E1DC7A7C200622E66 /* Media.xcassets */,
 				1968E27F1DC2E22100422BFE /* SoundBar */,
 				1968E2911DC2E22100422BFE /* SoundBarTests */,
 				1968E27E1DC2E22100422BFE /* Products */,
@@ -107,7 +112,6 @@
 				1968E2801DC2E22100422BFE /* AppDelegate.swift */,
 				1968E29D1DC2E71000422BFE /* WindowController.swift */,
 				1968E2821DC2E22100422BFE /* ViewController.swift */,
-				1968E2841DC2E22100422BFE /* Assets.xcassets */,
 				1968E2861DC2E22100422BFE /* Main.storyboard */,
 				1968E2891DC2E22100422BFE /* Info.plist */,
 			);
@@ -129,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				34EF36581DC7A07A00D25F89 /* 🎷.mp3 */,
+				34EF36631DC7A40000D25F89 /* 🎤.mp3 */,
+				34EF36661DC7A4A200D25F89 /* ⬛️.mp3 */,
 				34EF36591DC7A07A00D25F89 /* 🏡.mp3 */,
 				34EF365A1DC7A07A00D25F89 /* 🏳️‍🌈.mp3 */,
 				34EF365B1DC7A07A00D25F89 /* 😡.mp3 */,
@@ -231,15 +237,17 @@
 				34EF36611DC7A07A00D25F89 /* 😱.mp3 in Resources */,
 				34EF36411DC77D1600D25F89 /* 😉Wow.mp3 in Resources */,
 				34EF364B1DC780AD00D25F89 /* 📣😢.mp3 in Resources */,
+				342FFE3F1DC7A7C200622E66 /* Media.xcassets in Resources */,
 				34EF363F1DC77C9E00D25F89 /* 🖥 Wam.mp3 in Resources */,
 				34EF36471DC77EE700D25F89 /* Shots🔫.mp3 in Resources */,
+				34EF36671DC7A4A200D25F89 /* ⬛️.mp3 in Resources */,
 				34D3EF2C1DC6E84300BBCB2B /* 📷.mp3 in Resources */,
 				34EF365F1DC7A07A00D25F89 /* 🏳️‍🌈.mp3 in Resources */,
 				34EF36601DC7A07A00D25F89 /* 😡.mp3 in Resources */,
 				34EF365E1DC7A07A00D25F89 /* 🏡.mp3 in Resources */,
 				34D3EF2A1DC6E1B000BBCB2B /* 📣.mp3 in Resources */,
+				34EF36651DC7A40000D25F89 /* 🎤.mp3 in Resources */,
 				34EF36451DC77E3500D25F89 /* Triple❗️.mp3 in Resources */,
-				1968E2851DC2E22100422BFE /* Assets.xcassets in Resources */,
 				1968E2881DC2E22100422BFE /* Main.storyboard in Resources */,
 				34EF365D1DC7A07A00D25F89 /* 🎷.mp3 in Resources */,
 				34EF36491DC7804A00D25F89 /* 🔊🎮Wombo.mp3 in Resources */,

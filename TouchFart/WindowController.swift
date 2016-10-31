@@ -24,6 +24,8 @@ fileprivate extension NSTouchBarItemIdentifier {
     static let im = NSTouchBarItemIdentifier("gay")
     static let whyyou = NSTouchBarItemIdentifier("hefftobemad")
     static let wilhelm = NSTouchBarItemIdentifier("scream")
+    static let darkness = NSTouchBarItemIdentifier("oldfriend")
+    static let vitas = NSTouchBarItemIdentifier("vitas")
 
 }
 
@@ -54,7 +56,7 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
         let touchBar = NSTouchBar()
         touchBar.delegate = self
         touchBar.customizationIdentifier = .touchBar
-        touchBar.defaultItemIdentifiers = [.sax, .free, .im, .whyyou, .wilhelm]
+        touchBar.defaultItemIdentifiers = [.sax, .free, .im, .whyyou, .wilhelm, .darkness, .vitas]
         
         return touchBar
         
@@ -87,10 +89,18 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
             let button = NSButton(title: "🏡", target: self, action: #selector(handleSound))
             touchBarItem.view = button
             return touchBarItem
+        case NSTouchBarItemIdentifier.darkness:
+            let button = NSButton(title: "⬛️", target: self, action: #selector(handleSound))
+            touchBarItem.view = button
+            return touchBarItem
+        case NSTouchBarItemIdentifier.vitas:
+            let button = NSButton(title: "🎤", target: self, action: #selector(handleSound))
+            touchBarItem.view = button
+            return touchBarItem
 
        
         default:
-            let button = NSButton(title: "SOUND1", target: self, action: #selector(handleSound))
+            let button = NSButton(title: "sax", target: self, action: #selector(handleSound))
             touchBarItem.view = button
             return touchBarItem
             
