@@ -2,7 +2,7 @@
 A sound app for the new Macbook Pro's [Touch Bar](https://developer.apple.com/macos/touch-bar/).
 Branches of the git project have different sounds, and the master branch is planned to be a modular version for easy editing.
 
-**This release will soon not have *any* sounds in it. You must choose a branch or grab a precompiled binary to have sounds.**
+**This branch will soon not have *any* sounds in it. You must choose a branch or grab a precompiled binary to have sounds.**
 
 Pre-Release 0.2 Screenshot
 
