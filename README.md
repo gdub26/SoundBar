@@ -1,7 +1,8 @@
 #TouchSound
 A sound app for the new Macbook Pro's [Touch Bar](https://developer.apple.com/macos/touch-bar/). Don't expect anything great from this; it is just a side project for when my MBP arrives and to experiment with the TouchBar API.
 
-[Screenshots coming soon]
+Release 0.2 Screenshot
+![Ver 0.2 screenshot](http://i.imgur.com/wDf23Ir.png)
 
 ## Releases
 Precompiled binaries can be found under the default GitHub location. You can either run them on a real 2016 rMBP, or using the simulated XCode Touch Bar.
