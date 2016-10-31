@@ -8,7 +8,7 @@ A sound app for the new Macbook Pro's [Touch Bar](https://developer.apple.com/ma
 2. Emoji and other clever sound names
 
 ## Note
-Since the new Macbook isn't available yet, you can test out the Touch Bar's first ever sound effect app with Xcode 8.1 and macOS Sierra.
+Since the new Macbook isn't available yet, you can test out my first Touch Bar app with Xcode 8.1 and macOS Sierra 10.2.1.
 
 ## To Do
 Reshape UI, add code documentation, and consolidate what this will be eventually.
