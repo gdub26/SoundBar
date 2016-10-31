@@ -19,8 +19,11 @@ fileprivate extension NSTouchBarCustomizationIdentifier {
 
 fileprivate extension NSTouchBarItemIdentifier {
    
-    static let S1 = NSTouchBarItemIdentifier("sound1")
-    static let S2 = NSTouchBarItemIdentifier("sound2")
+    static let sax = NSTouchBarItemIdentifier("sax")
+    static let free = NSTouchBarItemIdentifier("realestate")
+    static let im = NSTouchBarItemIdentifier("gay")
+    static let whyyou = NSTouchBarItemIdentifier("hefftobemad")
+    static let wilhelm = NSTouchBarItemIdentifier("scream")
 
 }
 
@@ -51,7 +54,7 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
         let touchBar = NSTouchBar()
         touchBar.delegate = self
         touchBar.customizationIdentifier = .touchBar
-        touchBar.defaultItemIdentifiers = [.S1, .S2]
+        touchBar.defaultItemIdentifiers = [.sax, .free, .im, .whyyou, .wilhelm]
         
         return touchBar
         
@@ -64,15 +67,26 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
             
        // The '(title: "XXXXX"' is what the audio file must be named and also what is displayed on the TouchBar.
             
-        case NSTouchBarItemIdentifier.S1:
-            let button = NSButton(title: "SOUND1", target: self, action: #selector(handleSound))
+        case NSTouchBarItemIdentifier.sax:
+            let button = NSButton(title: "🎷", target: self, action: #selector(handleSound))
             touchBarItem.view = button
             return touchBarItem
-        case NSTouchBarItemIdentifier.S2:
-            let button = NSButton(title: "SOUND2", target: self, action: #selector(handleSound))
+        case NSTouchBarItemIdentifier.wilhelm:
+            let button = NSButton(title: "😱", target: self, action: #selector(handleSound))
             touchBarItem.view = button
             return touchBarItem
-        
+        case NSTouchBarItemIdentifier.whyyou:
+            let button = NSButton(title: "😡", target: self, action: #selector(handleSound))
+            touchBarItem.view = button
+            return touchBarItem
+        case NSTouchBarItemIdentifier.im:
+            let button = NSButton(title: "🏳️‍🌈", target: self, action: #selector(handleSound))
+            touchBarItem.view = button
+            return touchBarItem
+        case NSTouchBarItemIdentifier.free:
+            let button = NSButton(title: "🏡", target: self, action: #selector(handleSound))
+            touchBarItem.view = button
+            return touchBarItem
 
        
         default:
