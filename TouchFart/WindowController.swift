@@ -21,6 +21,7 @@ fileprivate extension NSTouchBarItemIdentifier {
     static let short = NSTouchBarItemIdentifier("shortfart")
     static let fart = NSTouchBarItemIdentifier("fart")
     static let wam = NSTouchBarItemIdentifier("wam")
+    static let AIRHORN = NSTouchBarItemIdentifier("AIRHORN")
 }
 
 
@@ -50,7 +51,7 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
         let touchBar = NSTouchBar()
         touchBar.delegate = self
         touchBar.customizationIdentifier = .touchBar
-        touchBar.defaultItemIdentifiers = [.loud, .short, .fart, .wam]
+        touchBar.defaultItemIdentifiers = [.wam, .AIRHORN]
         
         return touchBar
         
@@ -64,7 +65,6 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
             let button = NSButton(title: "💩", target: self, action: #selector(handleFart))
             touchBarItem.view = button
             return touchBarItem
-            
         case NSTouchBarItemIdentifier.short:
             let button = NSButton(title: "💨", target: self, action: #selector(handleFart))
             touchBarItem.view = button
@@ -73,8 +73,13 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
             let button = NSButton(title: "fart", target: self, action: #selector(handleFart))
             touchBarItem.view = button
             return touchBarItem
+       
         case NSTouchBarItemIdentifier.wam:
-            let button = NSButton(title: "wam", target: self, action: #selector(handleFart))
+            let button = NSButton(title: "Wam", target: self, action: #selector(handleFart))
+            touchBarItem.view = button
+            return touchBarItem
+        case NSTouchBarItemIdentifier.AIRHORN:
+            let button = NSButton(title: "Airhorn", target: self, action: #selector(handleFart))
             touchBarItem.view = button
             return touchBarItem
        
