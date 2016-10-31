@@ -15,3 +15,4 @@ Reshape UI, add code documentation, and consolidate what this will be eventually
 
 ## Copyright
 Feel free to copy this code and use it to make your own TouchSound app. However, you should probably directly fork from [this](https://github.com/hungtruong/TouchFart) project, as that is where the code credit goes to.
+I believe that free and open software makes the world a better place, and although this project probably won't have a huge impact, I try to apply this philosophy to all of my work. As such, use my code how you want, and attribute me if you want.
