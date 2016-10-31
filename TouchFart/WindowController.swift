@@ -50,7 +50,7 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
         let touchBar = NSTouchBar()
         touchBar.delegate = self
         touchBar.customizationIdentifier = .touchBar
-        touchBar.defaultItemIdentifiers = [.loud, .short, .fart]
+        touchBar.defaultItemIdentifiers = [.loud, .short, .fart, .wam]
         
         return touchBar
         
@@ -71,6 +71,10 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
             return touchBarItem
         case NSTouchBarItemIdentifier.fart:
             let button = NSButton(title: "fart", target: self, action: #selector(handleFart))
+            touchBarItem.view = button
+            return touchBarItem
+        case NSTouchBarItemIdentifier.wam:
+            let button = NSButton(title: "wam", target: self, action: #selector(handleFart))
             touchBarItem.view = button
             return touchBarItem
        
