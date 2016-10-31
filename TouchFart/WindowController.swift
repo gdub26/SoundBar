@@ -6,6 +6,8 @@
 //  Forked by Takumi Okazaki on 10/30/16
 //  Copyright © 2016 Takumi Okazaki. All rights reserved.
 //
+//  SoundBar's "Master" branch is modular. This means that you can easily make your own soundboard for the Touch Bar, using my app as a mold. 
+//  In essence, all you need to do is add new NSTouchBarItemIdentifiers and then add the buttons. From there simply make .mp3 files named the same as the titles of the buttons, and it should all work. If you can't get it to work how you want. Just open an issue on my GitHub page and I'll help you if I can.
 
 import Cocoa
 
