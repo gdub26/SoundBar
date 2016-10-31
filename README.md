@@ -1,5 +1,7 @@
-#TouchSound
-A sound app for the new Macbook Pro's [Touch Bar](https://developer.apple.com/macos/touch-bar/). Don't expect anything great from this; it is just a side project for when my MBP arrives and to experiment with the TouchBar API.
+## SoundBar Meme Edition
+A sound app for the new Macbook Pro's Touch Bar. This is a simple soundboard app for the MacBook Pro's TouchBar.
+
+This is the first meme edition for those of us with a stupid sense of humour. The master branch is planned to be modular, while other branches have different sound effects.
 
 Release 0.2 Screenshot
 ![Ver 0.2 screenshot](http://i.imgur.com/wDf23Ir.png)
