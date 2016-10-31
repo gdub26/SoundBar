@@ -1,8 +1,9 @@
-#SoundBar
+#SoundBar - Customizable Version
 A sound app for the new Macbook Pro's [Touch Bar](https://developer.apple.com/macos/touch-bar/).
 Branches of the git project have different sounds, and the master branch is planned to be a modular version for easy editing.
 
-**This branch will soon not have *any* sounds in it. You must choose a branch or grab a precompiled binary to have sounds.**
+**This branch does not have any sounds in it. It is for making your own soundboard. You must choose a branch or grab a precompiled binary to have sounds.**
+*The project Wiki has information on how to use this project to make your own soundboard.*
 
 Pre-Release 0.2 Screenshot
 
