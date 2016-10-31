@@ -90,7 +90,7 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
             touchBarItem.view = button
             return touchBarItem
         case NSTouchBarItemIdentifier.wow:
-            let button = NSButton(title: "𝙒ơ𝙒", target: self, action: #selector(handleFart))
+            let button = NSButton(title: "😉 Wow", target: self, action: #selector(handleFart))
             touchBarItem.view = button
             return touchBarItem
 
