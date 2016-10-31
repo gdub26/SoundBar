@@ -14,6 +14,11 @@ Precompiled binaries can be found under the default GitHub location. You can eit
 
 I don't update the binaries as often as I should, so you may be better off compiling your own if you want the newest build.
 
+## Features
+1. Play entertaining sounds right from your Touch Bar
+2. Emoji and other clever sound names
+3. Easy-english documentation for editibility
+
 ## To-Do
 1. More sounds, of course.
 2. ~~App Icon~~
@@ -21,15 +26,13 @@ I don't update the binaries as often as I should, so you may be better off compi
 4. Add the sound effect buttons to the main macOS window.
 5. Add more documentation.
 
-## Features
-1. Different sounds, easily accessible from the Touch Bar.
-2. Emoji and other clever sound names
-3. Easy-english documentation for editibility
+## About Forking
+1. To make people who want to make their own SoundBar have an easier time, I strive to provide good documentation. However, this documentation will likely only be on the modular source code of the Master branch, not the others.
+2. Original credit for this project goes to [Hung Truong's original Git](https://github.com/hungtruong/TouchFart).
 
 ## Notes
 1. Since the new Macbook isn't available yet, you can test out my first Touch Bar app with Xcode 8.1 and macOS Sierra 10.2.1.
-2. I forked [this](https://github.com/hungtruong/TouchFart) project to create SoundBar, but I have added documentation to my .swift codes if you wish to easily make your own soundboard. For that reason, it may be easier to fork my project to edit, but the credit should go to the aforementioned project.
-3. Branches in theory have different sounds.
+2. Branches have different sounds. You need to either compile a branch, or just download a precompiled release if you want more than silence.
 
 
 ## Copyright
