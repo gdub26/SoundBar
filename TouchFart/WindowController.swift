@@ -17,14 +17,9 @@ fileprivate extension NSTouchBarCustomizationIdentifier {
 
 fileprivate extension NSTouchBarItemIdentifier {
    
-    static let wam = NSTouchBarItemIdentifier("wam")
-    static let AIRHORN = NSTouchBarItemIdentifier("AIRHORN")
-    static let camera = NSTouchBarItemIdentifier("camera")
-    static let wow = NSTouchBarItemIdentifier("wow")
-    static let triple = NSTouchBarItemIdentifier("triple")
-    static let shots = NSTouchBarItemIdentifier("shots")
-    static let wombo = NSTouchBarItemIdentifier("wombo")
-    static let sadHORN = NSTouchBarItemIdentifier("sadHORN")
+    static let S1 = NSTouchBarItemIdentifier("sound1")
+    static let S2 = NSTouchBarItemIdentifier("sound2")
+
 }
 
 
@@ -54,7 +49,7 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
         let touchBar = NSTouchBar()
         touchBar.delegate = self
         touchBar.customizationIdentifier = .touchBar
-        touchBar.defaultItemIdentifiers = [.wam, .AIRHORN, .camera, .wow, .triple, .shots, .wombo, .sadHORN]
+        touchBar.defaultItemIdentifiers = [.S1, .S2]
         
         return touchBar
         
@@ -65,44 +60,21 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
         let touchBarItem = NSCustomTouchBarItem(identifier: identifier)
         switch identifier {
             
-       // The '(title: "XXXXX"' is what the audio file must be named and also what is displayed on the TB.
+       // The '(title: "XXXXX"' is what the audio file must be named and also what is displayed on the TouchBar.
             
-        case NSTouchBarItemIdentifier.AIRHORN:
-            let button = NSButton(title: "📣", target: self, action: #selector(handleSound))
+        case NSTouchBarItemIdentifier.S1:
+            let button = NSButton(title: "SOUND1", target: self, action: #selector(handleSound))
             touchBarItem.view = button
             return touchBarItem
-        case NSTouchBarItemIdentifier.wam:
-            let button = NSButton(title: "🖥 Wam", target: self, action: #selector(handleSound))
+        case NSTouchBarItemIdentifier.S2:
+            let button = NSButton(title: "SOUND2", target: self, action: #selector(handleSound))
             touchBarItem.view = button
             return touchBarItem
-        case NSTouchBarItemIdentifier.camera:
-            let button = NSButton(title: "📷", target: self, action: #selector(handleSound))
-            touchBarItem.view = button
-            return touchBarItem
-        case NSTouchBarItemIdentifier.wow:
-            let button = NSButton(title: "😉Wow", target: self, action: #selector(handleSound))
-            touchBarItem.view = button
-            return touchBarItem
-        case NSTouchBarItemIdentifier.triple:
-            let button = NSButton(title: "Triple❗️", target: self, action: #selector(handleSound))
-            touchBarItem.view = button
-            return touchBarItem
-        case NSTouchBarItemIdentifier.shots:
-            let button = NSButton(title: "Shots🔫", target: self, action: #selector(handleSound))
-            touchBarItem.view = button
-            return touchBarItem
-        case NSTouchBarItemIdentifier.wombo:
-            let button = NSButton(title: "🔊🎮Wombo", target: self, action: #selector(handleSound))
-            touchBarItem.view = button
-            return touchBarItem
-        case NSTouchBarItemIdentifier.sadHORN:
-            let button = NSButton(title: "📣😢", target: self, action: #selector(handleSound))
-            touchBarItem.view = button
-            return touchBarItem
+        
 
        
         default:
-            let button = NSButton(title: "🖥 Wam", target: self, action: #selector(handleSound))
+            let button = NSButton(title: "SOUND1", target: self, action: #selector(handleSound))
             touchBarItem.view = button
             return touchBarItem
             
