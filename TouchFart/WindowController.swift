@@ -20,7 +20,7 @@ fileprivate extension NSTouchBarItemIdentifier {
     static let loud = NSTouchBarItemIdentifier("loudfart")
     static let short = NSTouchBarItemIdentifier("shortfart")
     static let fart = NSTouchBarItemIdentifier("fart")
-    static let dedotatedwam = NSTouchBarItemIdentifier("wam")
+    static let dwam = NSTouchBarItemIdentifier("wam")
 }
 
 
@@ -71,6 +71,10 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
             return touchBarItem
         case NSTouchBarItemIdentifier.fart:
             let button = NSButton(title: "fart", target: self, action: #selector(handleFart))
+            touchBarItem.view = button
+            return touchBarItem
+        case NSTouchBarItemIdentifier.dwam:
+            let button = NSButton(title: "wam", target: self, action: #selector(handleFart))
             touchBarItem.view = button
             return touchBarItem
         default:
