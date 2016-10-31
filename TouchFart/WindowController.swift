@@ -16,7 +16,7 @@ fileprivate extension NSTouchBarCustomizationIdentifier {
 }
 
 fileprivate extension NSTouchBarItemIdentifier {
-    
+    // The first 3 IDs are not used in this application, but the files and identifiers have remained for the sake of homage to the original application. You can re-add them to the touch bar.
     static let loud = NSTouchBarItemIdentifier("loudfart")
     static let short = NSTouchBarItemIdentifier("shortfart")
     static let fart = NSTouchBarItemIdentifier("fart")
@@ -45,7 +45,7 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
         
     }
     
-    
+   // You have to add the identifiers to the list below for them to show up.
     @available(OSX 10.12.1, *)
     override func makeTouchBar() -> NSTouchBar? {
         let touchBar = NSTouchBar()
@@ -56,7 +56,7 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
         return touchBar
         
     }
-    
+   // Import the audio files with XCode before adding a new one.
     @available(OSX 10.12.1, *)
     func touchBar(_ touchBar: NSTouchBar, makeItemForIdentifier identifier: NSTouchBarItemIdentifier) -> NSTouchBarItem? {
         let touchBarItem = NSCustomTouchBarItem(identifier: identifier)
@@ -73,7 +73,7 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
             let button = NSButton(title: "fart", target: self, action: #selector(handleFart))
             touchBarItem.view = button
             return touchBarItem
-       
+       // The '(title: "XXXXX"' is what the audio file must be named and also what is displayed on the TB.
         case NSTouchBarItemIdentifier.wam:
             let button = NSButton(title: "Wam", target: self, action: #selector(handleFart))
             touchBarItem.view = button
