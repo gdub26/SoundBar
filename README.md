@@ -1,7 +1,7 @@
 #TouchSound
 A sound app for the new Macbook Pro's [Touch Bar](https://developer.apple.com/macos/touch-bar/). Don't expect anything great from this; it is just a side project for when my MBP arrives and to experiment with the TouchBar API.
 
-Release 0.2 Screenshot
+Pre-Release 0.2 Screenshot
 ![Ver 0.2 screenshot](http://i.imgur.com/wDf23Ir.png)
 
 ## Releases
@@ -23,6 +23,7 @@ I don't update the binaries as often as I should, so you may be better off compi
 ## Notes
 1. Since the new Macbook isn't available yet, you can test out my first Touch Bar app with Xcode 8.1 and macOS Sierra 10.2.1.
 2. I forked [this](https://github.com/hungtruong/TouchFart) project to create TouchSound, but I have added documentation to my .swift codes if you wish to easily make your own soundboard. For that reason, it may be easier to fork my project to edit, but the credit should go to the aforementioned project.
+3. Branches in theory have different sounds.
 
 
 ## Copyright
