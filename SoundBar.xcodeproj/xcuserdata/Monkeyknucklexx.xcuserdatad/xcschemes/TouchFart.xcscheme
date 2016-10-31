@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1968E27C1DC2E22100422BFE"
-               BuildableName = "TouchSound.app"
-               BlueprintName = "TouchSound"
-               ReferencedContainer = "container:TouchSound.xcodeproj">
+               BuildableName = "SoundBar.app"
+               BlueprintName = "SoundBar"
+               ReferencedContainer = "container:SoundBar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1968E28D1DC2E22100422BFE"
-               BuildableName = "TouchSoundTests.xctest"
-               BlueprintName = "TouchSoundTests"
-               ReferencedContainer = "container:TouchSound.xcodeproj">
+               BuildableName = "SoundBarTests.xctest"
+               BlueprintName = "SoundBarTests"
+               ReferencedContainer = "container:SoundBar.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1968E27C1DC2E22100422BFE"
-            BuildableName = "TouchSound.app"
-            BlueprintName = "TouchSound"
-            ReferencedContainer = "container:TouchSound.xcodeproj">
+            BuildableName = "SoundBar.app"
+            BlueprintName = "SoundBar"
+            ReferencedContainer = "container:SoundBar.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1968E27C1DC2E22100422BFE"
-            BuildableName = "TouchSound.app"
-            BlueprintName = "TouchSound"
-            ReferencedContainer = "container:TouchSound.xcodeproj">
+            BuildableName = "SoundBar.app"
+            BlueprintName = "SoundBar"
+            ReferencedContainer = "container:SoundBar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1968E27C1DC2E22100422BFE"
-            BuildableName = "TouchSound.app"
-            BlueprintName = "TouchSound"
-            ReferencedContainer = "container:TouchSound.xcodeproj">
+            BuildableName = "SoundBar.app"
+            BlueprintName = "SoundBar"
+            ReferencedContainer = "container:SoundBar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
