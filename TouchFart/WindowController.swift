@@ -20,6 +20,7 @@ fileprivate extension NSTouchBarItemIdentifier {
     static let loud = NSTouchBarItemIdentifier("loudfart")
     static let short = NSTouchBarItemIdentifier("shortfart")
     static let fart = NSTouchBarItemIdentifier("fart")
+    static let dedotatedwam = NSTouchBarItemIdentifier("wam")
 }
 
 
