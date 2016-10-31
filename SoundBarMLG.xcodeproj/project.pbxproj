@@ -34,13 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1968E27D1DC2E22100422BFE /* SoundBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1968E27D1DC2E22100422BFE /* SoundBarMLG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBarMLG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1968E2801DC2E22100422BFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1968E2821DC2E22100422BFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1968E2841DC2E22100422BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1968E2871DC2E22100422BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1968E2891DC2E22100422BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1968E28E1DC2E22100422BFE /* SoundBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1968E28E1DC2E22100422BFE /* SoundBarMLGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBarMLGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1968E2921DC2E22100422BFE /* TouchFartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchFartTests.swift; sourceTree = "<group>"; };
 		1968E2941DC2E22100422BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1968E29D1DC2E71000422BFE /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
@@ -84,8 +84,8 @@
 		1968E27E1DC2E22100422BFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1968E27D1DC2E22100422BFE /* SoundBar.app */,
-				1968E28E1DC2E22100422BFE /* SoundBarTests.xctest */,
+				1968E27D1DC2E22100422BFE /* SoundBarMLG.app */,
+				1968E28E1DC2E22100422BFE /* SoundBarMLGTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1968E27C1DC2E22100422BFE /* SoundBar */ = {
+		1968E27C1DC2E22100422BFE /* SoundBarMLG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1968E2971DC2E22100422BFE /* Build configuration list for PBXNativeTarget "SoundBar" */;
+			buildConfigurationList = 1968E2971DC2E22100422BFE /* Build configuration list for PBXNativeTarget "SoundBarMLG" */;
 			buildPhases = (
 				1968E2791DC2E22100422BFE /* Sources */,
 				1968E27A1DC2E22100422BFE /* Frameworks */,
@@ -145,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = SoundBar;
+			name = SoundBarMLG;
 			productName = TouchFart;
-			productReference = 1968E27D1DC2E22100422BFE /* SoundBar.app */;
+			productReference = 1968E27D1DC2E22100422BFE /* SoundBarMLG.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1968E28D1DC2E22100422BFE /* SoundBarTests */ = {
+		1968E28D1DC2E22100422BFE /* SoundBarMLGTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1968E29A1DC2E22100422BFE /* Build configuration list for PBXNativeTarget "SoundBarTests" */;
+			buildConfigurationList = 1968E29A1DC2E22100422BFE /* Build configuration list for PBXNativeTarget "SoundBarMLGTests" */;
 			buildPhases = (
 				1968E28A1DC2E22100422BFE /* Sources */,
 				1968E28B1DC2E22100422BFE /* Frameworks */,
@@ -163,9 +163,9 @@
 			dependencies = (
 				1968E2901DC2E22100422BFE /* PBXTargetDependency */,
 			);
-			name = SoundBarTests;
+			name = SoundBarMLGTests;
 			productName = TouchFartTests;
-			productReference = 1968E28E1DC2E22100422BFE /* SoundBarTests.xctest */;
+			productReference = 1968E28E1DC2E22100422BFE /* SoundBarMLGTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -189,7 +189,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1968E2781DC2E22100422BFE /* Build configuration list for PBXProject "SoundBar" */;
+			buildConfigurationList = 1968E2781DC2E22100422BFE /* Build configuration list for PBXProject "SoundBarMLG" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -202,8 +202,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1968E27C1DC2E22100422BFE /* SoundBar */,
-				1968E28D1DC2E22100422BFE /* SoundBarTests */,
+				1968E27C1DC2E22100422BFE /* SoundBarMLG */,
+				1968E28D1DC2E22100422BFE /* SoundBarMLGTests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,7 +259,7 @@
 /* Begin PBXTargetDependency section */
 		1968E2901DC2E22100422BFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1968E27C1DC2E22100422BFE /* SoundBar */;
+			target = 1968E27C1DC2E22100422BFE /* SoundBarMLG */;
 			targetProxy = 1968E28F1DC2E22100422BFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -369,7 +369,7 @@
 		1968E2981DC2E22100422BFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = MLGicon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TouchFart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -382,7 +382,7 @@
 		1968E2991DC2E22100422BFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = MLGicon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TouchFart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -403,7 +403,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hung-truong.TouchFartTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundBar.app/Contents/MacOS/SoundBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundBarMLG.app/Contents/MacOS/SoundBarMLG";
 			};
 			name = Debug;
 		};
@@ -418,14 +418,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hung-truong.TouchFartTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundBar.app/Contents/MacOS/SoundBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundBarMLG.app/Contents/MacOS/SoundBarMLG";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1968E2781DC2E22100422BFE /* Build configuration list for PBXProject "SoundBar" */ = {
+		1968E2781DC2E22100422BFE /* Build configuration list for PBXProject "SoundBarMLG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1968E2951DC2E22100422BFE /* Debug */,
@@ -434,7 +434,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1968E2971DC2E22100422BFE /* Build configuration list for PBXNativeTarget "SoundBar" */ = {
+		1968E2971DC2E22100422BFE /* Build configuration list for PBXNativeTarget "SoundBarMLG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1968E2981DC2E22100422BFE /* Debug */,
@@ -443,7 +443,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1968E29A1DC2E22100422BFE /* Build configuration list for PBXNativeTarget "SoundBarTests" */ = {
+		1968E29A1DC2E22100422BFE /* Build configuration list for PBXNativeTarget "SoundBarMLGTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1968E29B1DC2E22100422BFE /* Debug */,
