@@ -1,9 +1,10 @@
 //
 //  WindowController.swift
-//  TouchFart
+//  TouchSound
 //
 //  Created by Hung Truong on 10/27/16.
-//  Copyright © 2016 Hung Truong. All rights reserved.
+//  Forked by Takumi Okazaki on 10/30/16
+//  Copyright © 2016 Takumi Okazaki. All rights reserved.
 //
 
 import Cocoa
@@ -11,7 +12,7 @@ import Cocoa
 
 fileprivate extension NSTouchBarCustomizationIdentifier {
     
-    static let touchBar = NSTouchBarCustomizationIdentifier("com.hung-truong.touchfart")
+    static let touchBar = NSTouchBarCustomizationIdentifier("com.okazaki.touchsound")
 }
 
 fileprivate extension NSTouchBarItemIdentifier {

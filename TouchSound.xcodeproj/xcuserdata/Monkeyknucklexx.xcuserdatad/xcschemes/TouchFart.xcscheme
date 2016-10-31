@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1968E27C1DC2E22100422BFE"
-               BuildableName = "TouchFart.app"
-               BlueprintName = "TouchFart"
+               BuildableName = "TouchSound.app"
+               BlueprintName = "TouchSound"
                ReferencedContainer = "container:TouchSound.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1968E28D1DC2E22100422BFE"
-               BuildableName = "TouchFartTests.xctest"
-               BlueprintName = "TouchFartTests"
+               BuildableName = "TouchSoundTests.xctest"
+               BlueprintName = "TouchSoundTests"
                ReferencedContainer = "container:TouchSound.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1968E27C1DC2E22100422BFE"
-            BuildableName = "TouchFart.app"
-            BlueprintName = "TouchFart"
+            BuildableName = "TouchSound.app"
+            BlueprintName = "TouchSound"
             ReferencedContainer = "container:TouchSound.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,8 +66,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1968E27C1DC2E22100422BFE"
-            BuildableName = "TouchFart.app"
-            BlueprintName = "TouchFart"
+            BuildableName = "TouchSound.app"
+            BlueprintName = "TouchSound"
             ReferencedContainer = "container:TouchSound.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,8 +85,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1968E27C1DC2E22100422BFE"
-            BuildableName = "TouchFart.app"
-            BlueprintName = "TouchFart"
+            BuildableName = "TouchSound.app"
+            BlueprintName = "TouchSound"
             ReferencedContainer = "container:TouchSound.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

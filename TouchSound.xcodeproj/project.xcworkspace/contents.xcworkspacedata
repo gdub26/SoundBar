@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TouchFart.xcodeproj">
+      location = "self:/Volumes/Macintosh Plus/Documents/Xcode Compilations/Personal Forks/TouchSound/TouchSound.xcodeproj">
    </FileRef>
 </Workspace>
