@@ -32,7 +32,7 @@ I don't update the binaries as often as I should, so you may be better off compi
 2. Original credit for this project goes to [Hung Truong's original Git](https://github.com/hungtruong/TouchFart).
 
 ## Notes
-1. Since the new Macbook isn't available yet, you can test out my first Touch Bar app with Xcode 8.1 and macOS Sierra 10.2.1.
+1. If you want to test or use on hardware without the TouchBar, you can test it with XCode 8.1 or above.
 2. Branches have different sounds. You need to either compile a branch, or just download a precompiled release if you want more than silence.
 
 
