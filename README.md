@@ -1,4 +1,5 @@
 **SoundBar - Customizable Version**
+
 A sound app for the new Macbook Pro's [Touch Bar](https://developer.apple.com/macos/touch-bar/).
 Branches of the git project have different sounds, and the master branch is planned to be a modular version for easy editing.
 
