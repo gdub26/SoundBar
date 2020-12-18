@@ -19,8 +19,9 @@ fileprivate extension NSTouchBarCustomizationIdentifier {
 
 fileprivate extension NSTouchBarItemIdentifier {
    
-    static let S1 = NSTouchBarItemIdentifier("sound1")
-    static let S2 = NSTouchBarItemIdentifier("sound2")
+    static let Leedle = NSTouchBarItemIdentifier("Leedlelee")
+    static let Finland = NSTouchBarItemIdentifier("Finland")
+    static let Enigma = NSTouchBarItemIdentifier("I'm Ready")
 
 }
 
@@ -51,7 +52,7 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
         let touchBar = NSTouchBar()
         touchBar.delegate = self
         touchBar.customizationIdentifier = .touchBar
-        touchBar.defaultItemIdentifiers = [.S1, .S2]
+        touchBar.defaultItemIdentifiers = [.Leedle, .Finland, .Ready]
         
         return touchBar
         
@@ -64,12 +65,16 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
             
        // The '(title: "XXXXX"' is what the audio file must be named and also what is displayed on the TouchBar.
             
-        case NSTouchBarItemIdentifier.S1:
-            let button = NSButton(title: "SOUND1", target: self, action: #selector(handleSound))
+        case NSTouchBarItemIdentifier.Leedle:
+            let button = NSButton(title: "Leedlelee", target: self, action: #selector(handleSound))
             touchBarItem.view = button
             return touchBarItem
-        case NSTouchBarItemIdentifier.S2:
-            let button = NSButton(title: "SOUND2", target: self, action: #selector(handleSound))
+        case NSTouchBarItemIdentifier.Finland:
+            let button = NSButton(title: "Finland", target: self, action: #selector(handleSound))
+            touchBarItem.view = button
+            return touchBarItem
+        case NSTouchBarItemIdentifier.Enigma:
+            let button = NSButton(title: "Enigma", target: self, action: #selector(handleSound))
             touchBarItem.view = button
             return touchBarItem
         
